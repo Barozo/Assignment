@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+
+            background-image: url("radiance.jpg");
+
+
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            height: 90%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bg-text {
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.4);
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+    <h2>The Radiance</h2>
+    <h1 style="font-size:50px">I am Benjie Barozo</h1>
+    <p>And I'm a Dancer</p>
+</div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        .row,
+        .row > .column {
+            padding: 8px;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="main">
+
+    <h1>Welcome to my World</h1>
+    <hr>
+
+    <h3>About me..</h3>
+    <p>I'm Benjie S. Barozo, 21 years of age, from Basey, Samar. I'm currently enrolled at Eastern Visayas State University. I love singing but singing doesn't love me. So I quit singing because I think it is not for me, so I decided to explore, and I discovered a lot.
+        I love to play online games such as Mobile Legend and Call of Duty.</p>
+
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="bnj.jpg" alt="Benjie Barozo" style="width:100%">
+                <h3>Be yourself; everyone else is already taken.</h3>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="barozo.jpg" alt="Benjie Barozo" style="width:100%">
+                <h3>Live as if you were to die tomorrow. Learn as if you were to live forever.</h3>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="jie.jpg" alt="Nature" style="width:100%">
+                <h3>Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.</h3>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="benj.jpg" alt="Mountains" style="width:100%">
+                <h3>It is never too late to be what you might have been.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
